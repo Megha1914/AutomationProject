@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+<test name="test">
+<classes>
+
+	<class name="testngPractise.verifyURL">
+	<methods>
+		<include name="URLVerify">
+	</include>
+	</methods>
+	</class>
+	
+	<class name="testngPractise.VerifyTitle">
+		<methods>
+			<include name="verifyTitle"></include>
+		</methods>
+	</class>
+	
+	<class name="testngPractise.Login">
+		<methods>
+			<include name="login"></include>
+		</methods>
+	
+	</class>
+	
+</classes>
+</test>
+</suite>
