@@ -61,13 +61,14 @@ public class demo {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/input")).sendKeys("12345");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]")).click();
 		
 	}*/
 
 	@AfterMethod
 	public void tearDown() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
+		System.out.println("Driver get closed");
 		driver.close();
 	}
 }
